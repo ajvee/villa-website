@@ -10,9 +10,15 @@ import Error from "./Pages/Error"
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to my personal Website</h1>
+      <h1>Welcome to my Personal Website</h1>
       <Router>
         <NavBar />
+        <main>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </main>
       </Router>
     </div>
   );
