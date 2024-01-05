@@ -1,13 +1,17 @@
-import { Link } from "react-router-dom";
+import ScrollDot from "./ScrollDot";
 
 function NavBar() {
   return (
-    <nav className="navbar">
-        <div>
-          <Link to="/">Home</Link>
-          <Link to="about">About</Link>
+  <div>
+    <nav className="navbar sticky top-0 bg-gray-800 p-4">
+      <div className="flex justify-between items-center">
+        <div className="flex space-x-4">
         </div>
+      </div>
     </nav>
+    <ScrollDot />
+    </div>
+    
   );
 }
 
