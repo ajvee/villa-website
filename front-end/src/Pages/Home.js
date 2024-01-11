@@ -35,12 +35,12 @@ function HomePage() {
     <div>
       <NavBar />
       <div id="intro" className="h-screen flex items-center justify-center bg-gray-200">
-        <h1 className="text-6xl text-red-500">Welcome to my Personal Website</h1>
+        <h1 className="animate-pulse text-red-500">Welcome to my Personal Website</h1>
       </div>
       <div id="section-about" className="h-screen flex items-center justify-center bg-green-200">
-        <h2>About Me</h2>
+        <h2 className="bg-white p-4 rounded-lg shadow-md">About Me</h2>
       </div>
-      <div id="section-experience" className="h-screen flex items-center justify-center bg-blue-200">
+      <div id="section-experience" className="h-screen flex items-center justify-center bg-gradient-to-r from-purple-500 to-blue-500 text-white">
         <h2>Experience</h2>
       </div>
       <div id="section-contact" className="h-screen flex items-center justify-center bg-red-200">
