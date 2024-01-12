@@ -2,8 +2,9 @@ import React from "react";
 
 function Home() {
   return (
-    <div id="intro" className="h-screen flex items-center justify-center bg-gray-200">
-        <h1 className="animate-pulse text-red-500">Welcome to my Personal Website</h1>
+    <div id="section-home" 
+         className="h-screen flex items-center justify-center bg-[#0f0e17]">
+     <h1 className="font-mono text-8xl animate-pulse text-[#e53170]">PRESS TO BEGIN</h1>
     </div>
   );
 }

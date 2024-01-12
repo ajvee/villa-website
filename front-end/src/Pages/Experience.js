@@ -2,9 +2,10 @@ import React from "react";
 
 function Experience() {
     return (
-        <div id="section-experience" className="h-screen flex items-center justify-center bg-gradient-to-r from-purple-500 to-blue-500 text-white">
-        <h2>Experience</h2>
-      </div>  
+        <div id="section-experience" 
+             className="h-screen flex items-center justify-center bg-[#0f0e17]">
+             <h2 className="font-mono text-8xl text-[#e53170]">Experience</h2>
+        </div>  
     )
 } 
 
