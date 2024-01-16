@@ -1,10 +1,12 @@
 import React from "react"; 
+import profilepic from './/profilepic.png'
 
 function Home() {
   return (
     <div id="section-home" 
-         className="h-screen flex items-center justify-center bg-[#0f0e17]">
-     <h1 className="font-mono text-8xl animate-pulse text-[#e53170]">PRESS TO BEGIN</h1>
+         className="relative bg-cover bg-no-repeat bg-center h-screen flex items-center justify-center" style={{ backgroundImage: `url(${profilepic})` , zindex: '0'}}>
+     <h1 className="font-mono text-8xl text-center text-[#272343]">How's it going?</h1>
+
     </div>
   );
 }
