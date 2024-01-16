@@ -5,7 +5,7 @@ function Home() {
   return (
     <div id="section-home" 
          className="relative bg-cover bg-no-repeat bg-center h-screen flex items-center justify-center" style={{ backgroundImage: `url(${profilepic})` , zindex: '0'}}>
-     <h1 className="font-mono text-8xl text-center text-[#272343]">How's it going?</h1>
+     <h1 className="font-mono text-8xl text-center text-[#fffffe]">How's it going?</h1>
 
     </div>
   );
