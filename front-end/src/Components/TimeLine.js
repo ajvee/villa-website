@@ -28,13 +28,13 @@ const Timeline = ({ events }) => {
 
 const Circle = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-teal-500 rounded-full w-4 h-4"></div>
+    <div className="bg-gradient-to-r from-[#272343] to-[#ffd803] rounded-full w-4 h-4"></div>
   );
 };
 
 const Pillar = () => {
     return (
-      <div className="bg-gradient-to-b from-blue-500 to-teal-500 rounded-l-full rounded-r-full w-full h-2"></div>
+      <div className="bg-gradient-to-b from-[#272343] to-[#ffd803] rounded-l-full rounded-r-full w-full h-2"></div>
     );
   };
   
@@ -42,8 +42,8 @@ const Pillar = () => {
 const EventCard = ({ heading, subHeading }) => {
   return (
     <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-2xl flex flex-col gap-y-2 border shadow-md rounded-xl p-4">
-      <div className="text-blue-800 font-bold text-lg border-b">{heading}</div>
-      <div className="text-sm text-gray-700">{subHeading}</div>
+      <div className="text-[#272343] font-bold text-lg border-b">{heading}</div>
+      <div className="text-sm text-[#6e9999]">{subHeading}</div>
     </div>
   );
 };
