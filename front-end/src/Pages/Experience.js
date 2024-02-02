@@ -4,27 +4,27 @@ import Timeline from "../Components/TimeLine";
 function Experience() {
   const events = [
    {
-    heading: 'Ship Essential',
+    heading: 'Italian Wine Merchants - (2010-2020)',
     subHeading: "'Summarize your work history here'",
     direction: 'up',
    },
    {
-    heading: 'practice',
+    heading: 'Uber Eats Bike Delivery (2021)',
     subHeading:'practice',
     direction: 'down',
    },
    {
-    heading: 'annother one',
+    heading: 'Prose (2021-2022)',
     subHeading: 'hello',
     direction: 'up',
    },
    {
-    heading: 'annother one',
+    heading: 'Queens Bake House (2022)',
     subHeading: 'hello',
-    direction: 'up',
+    direction: 'down',
    },
    {
-    heading: 'annother one',
+    heading: 'Ship Essential (2022-Present',
     subHeading: 'hello',
     direction: 'up',
    }
